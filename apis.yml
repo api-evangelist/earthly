@@ -1,11 +1,15 @@
 aid: earthly
 name: Earthly
 description: >-
-  Earthly is a build automation tool that combines the best of Dockerfiles and Makefiles into a single, consistent build system.
+  Earthly is a build automation tool that combines the best of Dockerfiles and Makefiles into a single, consistent build system, providing reproducible builds that run the same way on your laptop as they do in CI.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Containers
+  - Build Automation
+  - CI/CD
+  - Docker
+  - Reproducible Builds
 url: >-
   https://raw.githubusercontent.com/api-evangelist/earthly/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -15,14 +19,34 @@ apis:
   - aid: earthly:earthly
     name: Earthly
     description: >-
-      Earthly is a build automation tool that combines the best of Dockerfiles and Makefiles into a single, consistent build system.
-    humanURL: https://github.com/api-evangelist/earthly
+      Earthly is a build automation tool that combines the best of Dockerfiles and Makefiles into a single, consistent build system, providing reproducible builds that run the same way on your laptop as they do in CI.
+    humanURL: https://earthly.dev/
     tags:
       - Containers
-    properties: []
+      - Build Automation
+      - CI/CD
+      - Docker
+      - Reproducible Builds
+    properties:
+      - type: Documentation
+        url: https://docs.earthly.dev/
+      - type: Getting Started
+        url: https://docs.earthly.dev/basics
 common:
   - type: Website
-    url: https://github.com/api-evangelist/earthly
+    url: https://earthly.dev/
+  - type: Documentation
+    url: https://docs.earthly.dev/
+  - type: Getting Started
+    url: https://docs.earthly.dev/basics
+  - type: GitHub Organization
+    url: https://github.com/earthly
+  - type: Blog
+    url: https://earthly.dev/blog/
+  - type: Pricing
+    url: https://earthly.dev/pricing
+  - type: Sign Up
+    url: https://cloud.earthly.dev/login
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

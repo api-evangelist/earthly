@@ -1,0 +1,28 @@
+aid: earthly
+name: Earthly
+description: >-
+  Earthly is a build automation tool that combines the best of Dockerfiles and Makefiles into a single, consistent build system.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Containers
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/earthly/refs/heads/main/apis.yml
+created: '2026-03-26'
+modified: '2026-03-26'
+specificationVersion: '0.19'
+apis:
+  - aid: earthly:earthly
+    name: Earthly
+    description: >-
+      Earthly is a build automation tool that combines the best of Dockerfiles and Makefiles into a single, consistent build system.
+    humanURL: https://github.com/api-evangelist/earthly
+    tags:
+      - Containers
+    properties: []
+common:
+  - type: Website
+    url: https://github.com/api-evangelist/earthly
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

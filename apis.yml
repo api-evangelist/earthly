@@ -5,9 +5,9 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Containers
   - Build Automation
   - CI/CD
+  - Containers
   - Docker
   - Reproducible Builds
 url: >-
@@ -22,9 +22,9 @@ apis:
       Earthly is a build automation tool that combines the best of Dockerfiles and Makefiles into a single, consistent build system, providing reproducible builds that run the same way on your laptop as they do in CI.
     humanURL: https://earthly.dev/
     tags:
-      - Containers
       - Build Automation
       - CI/CD
+      - Containers
       - Docker
       - Reproducible Builds
     properties:

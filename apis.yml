@@ -23,6 +23,8 @@ modified: '2026-04-28'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/earthly-technologies
   - type: Website
     url: https://earthly.dev/
   - type: Documentation

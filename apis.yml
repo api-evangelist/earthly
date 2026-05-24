@@ -45,6 +45,8 @@ common:
     url: https://earthly.dev/slack
   - type: Documentation
     url: https://docs-lunar.earthly.dev/
+  - type: LLMsTxt
+    url: https://docs.earthly.dev/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

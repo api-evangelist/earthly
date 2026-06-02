@@ -2,12 +2,20 @@
   "repo": "earthly",
   "feeds": [
     {
-      "source": "https://earthly.dev/blog/",
+      "source": "https://earthly.dev/blog/feed.xml",
       "feed_url": "https://earthly.dev/blog/feed.xml",
-      "title": "Earthly Blog",
-      "saved": 5
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://github.com/earthly/earthly",
+      "feed_url": "https://github.com/earthly/earthly",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 15,
-  "fetched": "2026-05-17T20:20:35Z"
+  "fetched": "2026-06-01T23:35:02Z"
 }

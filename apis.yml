@@ -39,13 +39,13 @@ common:
     url: https://earthly.dev/blog/
   - type: Pricing
     url: https://earthly.dev/pricing
-  - type: SignUp
+  - type: Signup
     url: https://cloud.earthly.dev/login
   - type: Community
     url: https://earthly.dev/slack
   - type: Documentation
     url: https://docs-lunar.earthly.dev/
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://docs.earthly.dev/llms.txt
 maintainers:
   - FN: Kin Lane

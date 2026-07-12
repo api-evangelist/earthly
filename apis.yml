@@ -23,6 +23,10 @@ modified: '2026-04-28'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/earthly-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/earthly-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/earthly-technologies
   - type: Website

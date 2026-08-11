@@ -34,6 +34,17 @@ modified: '2026-04-28'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: IssueTracker
+    url: https://github.com/earthly/earthly/issues
+  - type: Releases
+    url: https://github.com/earthly/earthly/releases
+  - type: CodeOfConduct
+    url: https://github.com/earthly/earthly/blob/main/code-of-conduct.md
+  - type: ContributionGuide
+    url: https://github.com/earthly/earthly/blob/main/CONTRIBUTING.md
+  - type: License
+    name: MPL-2.0
+    url: https://github.com/earthly/earthly/blob/main/LICENSE
   - type: VulnerabilityDisclosure
     url: security/earthly-vulnerability-disclosure.yml
   - type: DomainSecurity

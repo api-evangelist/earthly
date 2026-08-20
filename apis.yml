@@ -26,6 +26,14 @@ tags:
   - Containers
   - Docker
   - Reproducible Builds
+  - Open-Source
+  - Developer Tools
+tags_raw:
+  - Build Automation
+  - CI/CD
+  - Containers
+  - Docker
+  - Reproducible Builds
   - Open Source
   - Developer Tools
 url: https://raw.githubusercontent.com/api-evangelist/earthly/refs/heads/main/apis.yml

@@ -1,7 +1,7 @@
 ---
 title: "Backstage Adoption Guide: When to Use Spotify’s Developer-Portal Framework"
 url: "https://earthly.dev/blog/backstage-adoption-guide/"
-date: "2025-10-01T00:00:00-04:00"
+date: "2025-10-01"
 author: "Brandon Schurman"
 feed_url: "https://earthly.dev/blog/feed.xml"
 ---
@@ -148,7 +148,7 @@ feed_url: "https://earthly.dev/blog/feed.xml"
 <tr class="odd">
 <td style="text-align: left;"><strong>Service scaffolding</strong></td>
 <td style="text-align: left;">Hours DevOps spent vs. self-service template time</td>
-<td style="text-align: left;">“60 sec template vs. 4–6 weeks manual build.”</td>
+<td style="text-align: left;">“60 sec template vs. 4–6 weeks manual build.”</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>Developer throughput</strong></td>

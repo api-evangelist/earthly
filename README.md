@@ -1,4 +1,4 @@
-# Earthly (earthly)
+# Earthly
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,42 +64,90 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Earthly (https://earthly.dev/) is an open source build automation tool that combines the best of Dockerfiles and Makefiles into a single, consistent build system. Earthly provides reproducible builds that run the same way on a developer laptop as they do in CI, and is extended by Earthly Cloud (hosted, accelerated runners with shared cache) and Earthly Lunar (code governance and policy guardrails).
+Earthly is an open source build automation tool that combines the best of Dockerfiles and Makefiles into a single, consistent build system, providing reproducible builds that run the same way on a developer laptop as they do in CI. Earthly Cloud and Earthly Lunar extend the open source CLI with hosted runners and code governance guardrails. No public REST or GraphQL API has been published; integration is via the Earthly CLI and Earthfile build definitions.
 
-This repository tracks the developer resources, documentation, and any machine-readable API artifacts associated with Earthly.
+**Areas:** Build Automation · CI/CD · Containers · Docker · Reproducible Builds · Open Source · Developer Tools
 
-## Overview
+## Earthly on APIs.io
 
-Earthly's primary developer interface is the `earthly` CLI and the Earthfile build syntax, not a web API. Earthly integrates with all major CI systems (GitHub Actions, GitLab CI, Jenkins, CircleCI, BuildKite, etc.) by running the CLI inside CI jobs.
+Everything profiled for Earthly is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/earthly/](https://apis.io/providers/earthly/)** — or go straight to one of the APIs or properties below.
 
-## APIs
+### Published properties
 
-No public REST or GraphQL API has been documented for Earthly. Earthly Cloud and Earthly Lunar are consumed primarily via the CLI and the web console. If you are aware of any developer-facing HTTP APIs, integration endpoints, or OpenAPI specifications, contributions are welcome.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Common Properties
+#### GraphQL (1)
+
+GraphQL schemas.
+
+- [Moved to /providers/earthly/](https://apis.io/graphqls/earthly/earthly-graphql/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Earthly Domain Security](https://apis.io/security/earthly/earthly-domain-security/)
+- [Earthly Vulnerability Disclosure](https://apis.io/security/earthly/earthly-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://earthly.dev/)
 - [Documentation](https://docs.earthly.dev/)
-- [Getting Started](https://docs.earthly.dev/basics)
-- [Earthly Lunar Documentation](https://docs-lunar.earthly.dev/)
-- [GitHub Organization](https://github.com/earthly)
-- [Source Code (earthly/earthly)](https://github.com/earthly/earthly)
-- [Blog](https://earthly.dev/blog/)
+- [Getting started](https://docs.earthly.dev/basics)
 - [Pricing](https://earthly.dev/pricing)
-- [Sign Up (Earthly Cloud)](https://cloud.earthly.dev/login)
-- [Community Slack](https://earthly.dev/slack)
+- [Blog](https://earthly.dev/blog/)
 
-## Tags
+## API Evangelist rating
 
-- Build Automation
-- CI/CD
-- Containers
-- Docker
-- Reproducible Builds
-- Open Source
-- Developer Tools
+**Kin Score 22.4** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 23.7 |
 
-- **FN:** Kin Lane
-- **Email:** kin@apievangelist.com
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/earthly/](https://apis.io/providers/earthly/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Earthly: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/earthly/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
